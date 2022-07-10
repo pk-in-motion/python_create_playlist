@@ -23,7 +23,7 @@ while(count<3):
 count +=1
 '''
 
-
+# range = the number of playlist to be created
 for i in range(1, 5):
     #url = d.upload('./examples/video.mp4')
         createPlay = d.post('/me/playlists', {
